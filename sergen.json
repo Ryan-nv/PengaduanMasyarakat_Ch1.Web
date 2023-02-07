@@ -1,0 +1,35 @@
+{
+  "RootNamespace": "PengaduanMasyarakat",
+  "ServerTypings": {
+    "LocalTexts": true
+  },
+  "EndOfLine": "LF",
+  "Restore": {
+    "Exclude": [
+      "/**/*"
+    ]
+  },
+  "Connections": [
+    {
+      "Key": "Default",
+      "Tables": [
+        {
+          "Tablename": "pengaduan",
+          "Identifier": "Pengaduan",
+          "Module": "Layanan",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "tanggapan",
+          "Identifier": "Tanggapan",
+          "Module": "Layanan",
+          "PermissionKey": "Administration:General"
+        }
+      ]
+    }
+  ],
+  "UpgradeInfo": {
+    "InitialType": "Community",
+    "InitialVersion": "6.4.10.0"
+  }
+}

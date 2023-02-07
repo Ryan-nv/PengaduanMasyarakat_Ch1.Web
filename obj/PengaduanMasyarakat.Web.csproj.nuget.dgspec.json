@@ -1,0 +1,123 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/PengaduanMasyarakat.Web.csproj": {}
+  },
+  "projects": {
+    "/home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/PengaduanMasyarakat.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/PengaduanMasyarakat.Web.csproj",
+        "projectName": "PengaduanMasyarakat.Web",
+        "projectPath": "/home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/PengaduanMasyarakat.Web.csproj",
+        "packagesPath": "/home/ryan/.nuget/packages/",
+        "outputPath": "/home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ryan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[4.5.3.3, )"
+            },
+            "FluentMigrator.Runner": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.TypeScript.MSBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.7.4, )"
+            },
+            "Serenity.Assets": {
+              "target": "Package",
+              "version": "[6.4.10, )"
+            },
+            "Serenity.Demo.BasicSamples": {
+              "target": "Package",
+              "version": "[6.4.10, )"
+            },
+            "Serenity.Demo.Northwind": {
+              "target": "Package",
+              "version": "[6.4.10, )"
+            },
+            "Serenity.Extensions": {
+              "target": "Package",
+              "version": "[6.4.10, )"
+            },
+            "Serenity.Net.Web": {
+              "target": "Package",
+              "version": "[6.4.10, )"
+            },
+            "Serenity.Scripts": {
+              "target": "Package",
+              "version": "[6.4.10, )"
+            },
+            "mysql.data": {
+              "target": "Package",
+              "version": "[8.0.32, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

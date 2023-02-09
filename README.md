@@ -20,8 +20,8 @@ Goodluck people 🧙‍♂️
   ##### SaveHandler
   - (/) PengaduanSaveHandler.cs
   - (/) TanggapanSaveHandler.cs
-  - (/) TanggapanGrid.ts
-  - (/) PengaduanGrid.ts
+  - (/) TanggapanDialog.ts
+  - (/) PengaduanDialog.ts
 
 #### Hint :
 + (+) : new file

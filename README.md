@@ -9,3 +9,21 @@
 - Cooler status
 
 Goodluck people 🧙‍♂️
+
+## File Modificated
+  ##### MasterDetail
+  + TanggapanEditorForm.cs (optional, can be replaced with TanggapanEditorForm.cs)
+  + TanggapanEditor.ts
+  + TanggapanEditDialog.ts
+  / TanggapanColumn (optional)
+  
+  ##### SaveHandler
+  / PengaduanSaveHandler.cs
+  / TanggapanSaveHandler.cs
+  / TanggapanGrid.ts
+  / PengaduanGrid.ts
+
+#### Hint :
+[ + ] new file
+[ - ] deleted file
+[ / ] modified file

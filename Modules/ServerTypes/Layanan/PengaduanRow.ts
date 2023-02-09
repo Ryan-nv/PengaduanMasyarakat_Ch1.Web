@@ -1,4 +1,5 @@
 ﻿import { StatusEnum } from "./StatusEnum";
+import { TanggapanRow } from "./TanggapanRow";
 import { getLookup, getLookupAsync, fieldsProxy } from "@serenity-is/corelib/q";
 
 export interface PengaduanRow {
@@ -8,6 +9,8 @@ export interface PengaduanRow {
     Laporan?: string;
     Gambar?: string;
     Status?: StatusEnum;
+    Tanggapan?: TanggapanRow[];
+    Username?: string;
 }
 
 export abstract class PengaduanRow {
@@ -20,7 +23,7 @@ export abstract class PengaduanRow {
     static getLookup() { return getLookup<PengaduanRow>('Layanan.Pengaduan') }
     static async getLookupAsync() { return getLookupAsync<PengaduanRow>('Layanan.Pengaduan') }
 
-    static readonly deletePermission = 'Pengaduan:Read';
+    static readonly deletePermission = 'Pengaduan:Delete';
     static readonly insertPermission = 'Pengaduan:Insert';
     static readonly readPermission = 'Pengaduan:Read';
     static readonly updatePermission = 'Pengaduan:Update';

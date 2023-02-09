@@ -3,6 +3,7 @@ using Serenity.Data;
 using Serenity.Data.Mapping;
 using System;
 using System.ComponentModel;
+using System.Collections.Generic;
 
 namespace PengaduanMasyarakat.Layanan
 {
@@ -12,11 +13,11 @@ namespace PengaduanMasyarakat.Layanan
     [ReadPermission("Pengaduan:Read")]
     [InsertPermission("Pengaduan:Insert")]
     [UpdatePermission("Pengaduan:Update")]
+    [DeletePermission("Pengaduan:Delete")]
     
     [LookupScript(Permission ="*")]
     public sealed class PengaduanRow : Row<PengaduanRow.RowFields>, IIdRow, INameRow
     {
-        // TODO : IMPLEMENT IMAGE UPLOAD AND DISPLAY INLINE IMAGE
         [DisplayName("Id"), Column("id"), Identity, IdProperty]
         public int? Id
         {
@@ -30,11 +31,17 @@ namespace PengaduanMasyarakat.Layanan
             get => fields.Tanggal[this];
             set => fields.Tanggal[this] = value;
         }
-        [DisplayName("User Id"), Column("user_id"), LookupEditor(typeof(Administration.UserRow))]
+        [DisplayName("User Id"), Column("user_id"), LookupEditor(typeof(Administration.UserRow)), ForeignKey("Users", "UserId"), LeftJoin("jUsers")]
         public int? UserId
         {
             get => fields.UserId[this];
             set => fields.UserId[this] = value;
+        }
+        [DisplayName("Pelapor"), Expression("jUsers.[DisplayName]")]
+        public string Username
+        {
+            get => fields.Username[this];
+            set => fields.Username[this] = value;
         }
 
         [DisplayName("Laporan"), Column("laporan"), QuickSearch, NameProperty]
@@ -57,6 +64,12 @@ namespace PengaduanMasyarakat.Layanan
             get => (StatusEnum)fields.Status[this];
             set => fields.Status[this] = (int)value;
         }
+        [DisplayName("Tanggapan"), MasterDetailRelation("id_pengaduan", IncludeColumns = "Petugas"), NotMapped]
+        public List<TanggapanRow> Tanggapan 
+        {
+            get => fields.Tanggapan[this];
+            set => fields.Tanggapan[this] = value;
+        }
 
         public PengaduanRow()
             : base()
@@ -76,6 +89,8 @@ namespace PengaduanMasyarakat.Layanan
             public StringField Laporan;
             public StringField Gambar;
             public Int32Field Status;
+            public RowListField<TanggapanRow> Tanggapan;
+            public StringField Username;
         }
     }
 }

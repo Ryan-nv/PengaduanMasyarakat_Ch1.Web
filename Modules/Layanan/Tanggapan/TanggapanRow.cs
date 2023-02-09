@@ -40,11 +40,17 @@ namespace PengaduanMasyarakat.Layanan
             set => fields.Tanggapan[this] = value;
         }
 
-        [DisplayName("Id Petugas"), Column("id_petugas"), LookupEditor(typeof(Administration.UserRow))]
+        [DisplayName("Petugas"), Column("id_petugas"), LookupEditor(typeof(Administration.UserRow)), ForeignKey("Users", "UserId"), LeftJoin("jUser")]
         public int? IdPetugas
         {
             get => fields.IdPetugas[this];
             set => fields.IdPetugas[this] = value;
+        }
+        [DisplayName("Petugas"), Expression("jUser.[Username]")]
+        public string Petugas
+        {
+            get => fields.Petugas[this];
+            set => fields.Petugas[this] = value;
         }
 
         [DisplayName("Id Pengaduan Tanggal"), Expression("jIdPengaduan.[tanggal]")]
@@ -61,7 +67,7 @@ namespace PengaduanMasyarakat.Layanan
             set => fields.IdPengaduanUserId[this] = value;
         }
 
-        [DisplayName("Id Pengaduan Laporan"), Expression("jIdPengaduan.[laporan]")]
+        [DisplayName("Pengaduan"), Expression("jIdPengaduan.[laporan]")]
         public string IdPengaduanLaporan
         {
             get => fields.IdPengaduanLaporan[this];
@@ -105,6 +111,7 @@ namespace PengaduanMasyarakat.Layanan
             public StringField IdPengaduanLaporan;
             public StringField IdPengaduanGambar;
             public Int32Field IdPengaduanStatus;
+            public StringField Petugas;
         }
     }
 }

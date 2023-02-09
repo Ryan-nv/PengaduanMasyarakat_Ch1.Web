@@ -1,5 +1,6 @@
 ﻿import { Decorators, EditorUtils, EntityDialog } from '@serenity-is/corelib';
 import { Authorization, EditorAttribute } from '@serenity-is/corelib/q';
+import { TextEditor } from '@serenity-is/sleekgrid';
 import { PengaduanForm, PengaduanRow, PengaduanService } from '../../ServerTypes/Layanan';
 
 @Decorators.registerClass('PengaduanMasyarakat.Layanan.PengaduanDialog')
@@ -15,6 +16,12 @@ export class PengaduanDialog extends EntityDialog<PengaduanRow, any> {
 
     protected form = new PengaduanForm(this.idPrefix);
     
+    protected updateInterface(): void {
+        super.updateInterface();
+        this.form.Tanggal.value = new Date().toDateString();
+        EditorUtils.setReadOnly(this.form.Username, true);
+        this.form.Username.value = Authorization.username;
+    }
     protected afterLoadEntity(): void {
         super.afterLoadEntity();
         if(!Authorization.hasPermission("Pengaduan:SetStatus")){
@@ -24,7 +31,7 @@ export class PengaduanDialog extends EntityDialog<PengaduanRow, any> {
             EditorUtils.setReadOnly(this.form.Gambar,true);
             EditorUtils.setReadOnly(this.form.Tanggal,true);
             EditorUtils.setReadOnly(this.form.Laporan,true);
-            EditorUtils.setReadOnly(this.form.UserId,true);
+            EditorUtils.setReadOnly(this.form.Username,true);
         }
     }
 }

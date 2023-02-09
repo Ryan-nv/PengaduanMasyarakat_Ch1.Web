@@ -11,6 +11,7 @@ export interface TanggapanRow {
     IdPengaduanLaporan?: string;
     IdPengaduanGambar?: string;
     IdPengaduanStatus?: number;
+    Petugas?: string;
 }
 
 export abstract class TanggapanRow {

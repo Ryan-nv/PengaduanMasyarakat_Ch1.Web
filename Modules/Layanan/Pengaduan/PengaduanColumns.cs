@@ -11,7 +11,7 @@ namespace PengaduanMasyarakat.Layanan.Columns
         [EditLink, DisplayName("Db.Shared.RecordId"), AlignRight]
         public int Id { get; set; }
         public DateTime Tanggal { get; set; }
-        public int UserId { get; set; }
+        public string Username { get; set; }
         [EditLink]
         public string Laporan { get; set; }
         [InlineImageFormatter] 

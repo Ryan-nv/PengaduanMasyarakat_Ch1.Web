@@ -8,93 +8,93 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PengaduanMasyarakat.Web
 build_property.RootNamespace = PengaduanMasyarakat.Web
-build_property.ProjectDir = /home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/
+build_property.ProjectDir = /home/ryan/project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = /home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web
+build_property.MSBuildProjectDirectory = /home/ryan/project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Modules/Common/Dashboard/DashboardIndex.cshtml]
+[/home/ryan/project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Modules/Common/Dashboard/DashboardIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlcy9Db21tb24vRGFzaGJvYXJkL0Rhc2hib2FyZEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Modules/Membership/Account/ChangePassword/ChangePasswordPage.cshtml]
+[/home/ryan/project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Modules/Membership/Account/ChangePassword/ChangePasswordPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlcy9NZW1iZXJzaGlwL0FjY291bnQvQ2hhbmdlUGFzc3dvcmQvQ2hhbmdlUGFzc3dvcmRQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Modules/Membership/Account/ForgotPassword/ForgotPasswordPage.cshtml]
+[/home/ryan/project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Modules/Membership/Account/ForgotPassword/ForgotPasswordPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlcy9NZW1iZXJzaGlwL0FjY291bnQvRm9yZ290UGFzc3dvcmQvRm9yZ290UGFzc3dvcmRQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Modules/Membership/Account/Login/LoginPage.cshtml]
+[/home/ryan/project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Modules/Membership/Account/Login/LoginPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlcy9NZW1iZXJzaGlwL0FjY291bnQvTG9naW4vTG9naW5QYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Modules/Membership/Account/ResetPassword/ResetPasswordEmail.cshtml]
+[/home/ryan/project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Modules/Membership/Account/ResetPassword/ResetPasswordEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlcy9NZW1iZXJzaGlwL0FjY291bnQvUmVzZXRQYXNzd29yZC9SZXNldFBhc3N3b3JkRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Modules/Membership/Account/ResetPassword/ResetPasswordPage.cshtml]
+[/home/ryan/project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Modules/Membership/Account/ResetPassword/ResetPasswordPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlcy9NZW1iZXJzaGlwL0FjY291bnQvUmVzZXRQYXNzd29yZC9SZXNldFBhc3N3b3JkUGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Modules/Membership/Account/SignUp/ActivateEmail.cshtml]
+[/home/ryan/project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Modules/Membership/Account/SignUp/ActivateEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlcy9NZW1iZXJzaGlwL0FjY291bnQvU2lnblVwL0FjdGl2YXRlRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Modules/Membership/Account/SignUp/SignUpPage.cshtml]
+[/home/ryan/project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Modules/Membership/Account/SignUp/SignUpPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlcy9NZW1iZXJzaGlwL0FjY291bnQvU2lnblVwL1NpZ25VcFBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Modules/Membership/_ViewStart.cshtml]
+[/home/ryan/project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Modules/Membership/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlcy9NZW1iZXJzaGlwL19WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Modules/_ViewImports.cshtml]
+[/home/ryan/project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Modules/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlcy9fVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Modules/_ViewStart.cshtml]
+[/home/ryan/project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Modules/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlcy9fVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Views/Errors/AccessDenied.cshtml]
+[/home/ryan/project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Views/Errors/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXJyb3JzL0FjY2Vzc0RlbmllZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Views/Errors/ValidationError.cshtml]
+[/home/ryan/project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Views/Errors/ValidationError.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXJyb3JzL1ZhbGlkYXRpb25FcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Views/Shared/Error.cshtml]
+[/home/ryan/project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Views/Shared/GridPage.cshtml]
+[/home/ryan/project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Views/Shared/GridPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0dyaWRQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Views/Shared/_Layout.cshtml]
+[/home/ryan/project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Views/Shared/_LayoutHead.cshtml]
+[/home/ryan/project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Views/Shared/_LayoutHead.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXRIZWFkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Views/Shared/_LayoutNoNavigation.cshtml]
+[/home/ryan/project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Views/Shared/_LayoutNoNavigation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXROb05hdmlnYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Views/Shared/_Sidebar.cshtml]
+[/home/ryan/project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Views/Shared/_Sidebar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19TaWRlYmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Views/_ViewImports.cshtml]
+[/home/ryan/project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ryan/Project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Views/_ViewStart.cshtml]
+[/home/ryan/project/ukk2023/PengaduanMasyarakat/PengaduanMasyarakat_Ch1.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
